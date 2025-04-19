@@ -34,3 +34,8 @@ The proposed solution aims to resolve these issues by leveraging modern technolo
 3.Reduce errors
 
 4.Enhance data accessibility and accuracy
+### 📹 Project Demo
+
+Video link-
+
+https://drive.google.com/file/d/1XS0Y2SJIYcQiuxrT5OsyD-ZHeBxQZMIO/view?usp=drive_link
