@@ -1,0 +1,52 @@
+/* General Styles */
+
+  
+  .viewshortlist-container {
+    width: 100%;
+    /*max-width: 1000px;*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 20px; /* Add margin to separate from the navbar */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .company-section {
+    margin-bottom: 20px;
+  }
+  
+  .company-section h3 {
+    color: #007bff;
+  }
+  
+  .shortlist-count {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .shortlisted-students {
+    margin-top: 10px;
+  }
+  
+  .student {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student p {
+    margin: 0;
+    color: #555;
+  }
+  

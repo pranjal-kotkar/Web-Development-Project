@@ -1,0 +1,103 @@
+/* About Us Page Styling */
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  /* Image Section Styling */
+.image-section {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  margin-bottom: 20px; /* Adds some space below the image */
+}
+
+.about-us-image {
+  max-width: 80%; /* Adjust this value as needed to fit the page */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+/* Rest of your styles... */
+.hero-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.mission, .vision {
+  width: 45%;
+}
+
+.company-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+  /* Hero Section Styling */
+  .hero-section {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Company Information Section Styling */
+  .company-info {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .company-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .company-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Mission and Vision Section Styling */
+  .mission-vision {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .mission, .vision {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .mission h2, .vision h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .mission p, .vision p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

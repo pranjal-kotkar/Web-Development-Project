@@ -1,0 +1,97 @@
+.homepage {
+  background-image: url('C:\Users\nvs20\Desktop\JFST\reactunit3\typroject1\my-app\public\assets\coll.png'); /* Use a relative path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(20, 13, 13);
+}
+
+/* Background Image and Full Page Styling */
+
+/* Content Styling */
+.content { text-align: center; }
+ .content-box { background-color:
+   #e4e4e2;
+    padding: 20px;
+     border-radius: 10px; 
+     box-shadow: 0 4px 8px rgba(128, 128, 128, 0.7); }
+
+/* Heading and Paragraph Styling */
+.content-box h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.content-box p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+.description {
+   flex: 1;
+    padding: 20px;
+    background-color: #fff;
+     border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+
+.marquee-container {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #85b0f0; /* Add a border for the box */
+  border-radius: 5px; /* Rounded corners for a nicer look */
+  margin-top: 50px; /* Space below the marquee */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.marquee-text {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  display: block;
+  padding: 5px 0; /* Center padding within the marquee */
+}
+
+.above-homepage-image {
+  width: 600px; /* Adjust the width as needed */
+  height: 500px;
+  display: block;
+}
+
+.below-homepage-image {
+  width: 1400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center the image horizontally */
+  display: block;
+  border-radius: 5px; /* Optional: rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.content-container {
+  display: flex;
+  gap: 200px; /* Space between the two containers */
+  align-items: center; /* Align items vertically center */
+}
+.carousel-container { margin: 20px auto; max-width: 1200px; }
+ .category-block {
+   background-color: #fff; 
+   border-radius: 10px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; margin: 10px; text-align: left; 
+    animation: colorChange 10s infinite; }
+     .category-block h2 { color: #007bff; margin-bottom: 10px; }
+      .category-block ul { list-style-type: none; padding: 0; } 
+      .category-block li { padding: 5px 0; border-bottom: 1px solid #ddd; }
+       .category-block li:last-child { border-bottom: none; }
+        .below-homepage { 
+          display: flex; justify-content: center; align-items: center; padding: 20px; }
+
+          @keyframes colorChange { 0% { background-color: #fff; } 
+          25% { background-color: #68d357; } 
+          50% { background-color: #116bc0; } 
+          75% { background-color: #ccbd1e; } 
+          100% { background-color: #b148d4; } }
